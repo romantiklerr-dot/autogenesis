@@ -1,0 +1,8 @@
+{
+  "name": "autogenesis-montaj",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts AutoGenesis ../hazir/autogenesis_alfa156.mp4"
+  }
+}

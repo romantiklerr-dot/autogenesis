@@ -1,0 +1,31 @@
+# Asılılıqlar
+node_modules/
+
+# Gizli açarlar
+.env
+.env.*
+*API_KEY*
+
+# Ayrıca klonlanmış xarici repolar
+claude-code/
+OpenMontage/
+
+# Render nəticələri və hazır videolar
+hazir/
+montaj/build/
+alfa.mp4/
+alfa.png/
+
+# Böyük media faylları (GitHub limiti 100 MB)
+*.mp4
+*.mov
+*.wav
+*.mp3
+
+# Nitq modelləri və binar alətlər
+montaj/tools/vosk_model/
+montaj/tools/whisper.cpp/
+*.zip
+
+# Loglar
+*.log
